@@ -21,7 +21,7 @@ The refactored code shaved off a considerable amount of time (about 80% faster) 
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
 
-The main goal of refactoring code seems to be to make the code as efficient as possible; remove redundancies, unnecessary code or change a process to ignore useless data. It's a similar process to editing a book or essay. The main bulk of the content is good but it just needs to zing a little more. 
+The main goal of refactoring code is to be to make the code as efficient as possible; remove redundancies, unnecessary code or change a process to ignore useless data. It's a similar process to editing a book or essay. The main bulk of the content is good but it just needs to zing a little more. 
 
 I can imagine having efficient code is important particularly when working with large data sets. Having a quick result can be the difference between someone using your work/product over someone else's. Reworking and revising code is another big part of learning how to be the best programmer you can be. Like editing that book, you see things that you would ordinarily miss in the midst of writing your code.
 
@@ -39,4 +39,4 @@ Dim tickerStartingPrices(12) As Single
 Dim tickerEndingPrices(12) As Single
 ```
 
-So now instead of identifying the data row by row, it identified the data by the individual stock. This enabled the program to only pay attention to the rows and information that mattered instead of having to loop through every row of the spreadsheet for every peice of data. 
+So now instead of identifying the data row by row, it identified the data by the individual stock. This enabled the program to only pay attention to the rows and information that mattered instead of having to loop through every row of the spreadsheet for every peice of data. Because of this change, many more stocks could be added to this data and the analysis would still be performed in a fraction of a second.
