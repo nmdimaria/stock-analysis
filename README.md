@@ -2,10 +2,13 @@
 
 ## Overview of Project
 
+The goal of this analysis was to break down data on returns for 12 different stocks.
 
+The initial code, while effective, was not as efficient as it could be. Therefore, we now refactored the code to cut out redundancies and make it more useful for larger blocks of stock data.
 
 ## Results
 
+[Before picture](Resources/Original_Code_Runtime_ScreenShot.png)
 
 
 ## Summary
