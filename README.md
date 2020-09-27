@@ -8,10 +8,12 @@ The initial code, while effective, was not as efficient as it could be. Therefor
 
 ## Results
 
+The refactored code shaved a considerable amount of time (about 80% faster)
 
+### Original Code
 ![Before picture](Resources/Original_Code_Runtime_ScreenShot.png)
 
-
+### Refactored Code
 ![After picture](Resources/Refactored_Code_Runtime_Screenshot.png)
 
 
