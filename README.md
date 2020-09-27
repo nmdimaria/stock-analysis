@@ -8,7 +8,7 @@ The initial code, while effective, was not as efficient as it could be. Therefor
 
 ## Results
 
-[Before picture](stock-analysis/Resources/Original_Code_Runtime_ScreenShot)
+[Before picture](Resources/Original_Code_Runtime_ScreenShot)
 
 
 ## Summary
