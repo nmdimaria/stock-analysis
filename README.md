@@ -11,6 +11,7 @@ The initial code, while effective, was not as efficient as it could be. Therefor
 [Before picture](Resources/Original_Code_Runtime_ScreenShot .png)
 
 
+
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
 
