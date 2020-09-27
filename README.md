@@ -29,6 +29,8 @@ However, like editing, I can also see going down a bit of a rabbit hole with thi
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 
+As I said before, I initially tried to change too much about the code and struggled to grasp the logic of the new process. It made way more sense when I understood exactly what was being changed and why.
+
 This code ran more efficiently by assigning indexes to each stock ticker with `Dim tickers(12) As String` then applying that index to indexes/arrays for volumes and prices.
 
 ```
@@ -37,4 +39,4 @@ Dim tickerStartingPrices(12) As Single
 Dim tickerEndingPrices(12) As Single
 ```
 
-This enabled the program to only pay attention to the rows and information that mattered instead of having to loop through every row of the spreadsheet for every peice of data.
+So now instead of identifying the data row by row, it identified the data by the individual stock. This enabled the program to only pay attention to the rows and information that mattered instead of having to loop through every row of the spreadsheet for every peice of data. 
