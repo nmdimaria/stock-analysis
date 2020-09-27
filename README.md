@@ -8,7 +8,7 @@ The initial code, while effective, was not as efficient as it could be. Therefor
 
 ## Results
 
-[After picture](Resources/Refactored_Code_Runtime_ScreenShot.png)
+[After picture](Resources/Refactored_Code_Runtime_Screenshot)
 
 
 
